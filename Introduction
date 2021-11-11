@@ -1,0 +1,62 @@
+Software Applications & Software Products
+
+- Product is designed as per market requirements.
+
+- Application is designed as per client requirements.
+
+What are the various type of software applications and products?
+- DeskTop Applications
+- Web Applications
+- Distributed Applications
+- Mobile Apps
+- AI Apps
+- IoT Apps
+- 2D & 3D Gaming
+
+
+We are going to build 2 types of applications:
+1. Web Applications
+2. Distributed Applications [Angular / React]
+
+
+		       Web Applications
+- Web Applications use 3 tier architecture.
+
+
+FAQ: What is difference between Layers and Tiers?
+Ans:  Applications are built in Layers.
+         Applications run in Tiers.
+
+
+
+https://github.com/Sharma-NareshIT/UI-Fullstack
+
+		            UI in Web Development
+
+1. Network
+	ARPANET - 1960 - US-DOD
+	a) LAN
+	b) MAN
+	c) WAN
+2. Internet
+	
+
+3. In early 1990's  Tim Berners Lee  of CERN Labs introduced 
+	"Web"
+
+4. What is Web?
+     - Web is a portion of internet with restricted access.
+     - Applications
+	a) Anonymous User
+	b) Authorized User
+    
+5. What is Web Server
+
+     - Web Server resembles both software and hardware.
+     - It satisfies the client request by sending and receving data.
+
+6. What is a Web Site
+
+7. What is a Web Application
+
+
