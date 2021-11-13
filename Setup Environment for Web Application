@@ -1,0 +1,73 @@
+Setup Environment for Building Web Applications
+======================================
+
+1. Download and Install "Node.js" on your PC
+
+    - We are downloading and installing node.js for a package manager called "npm".
+    - Package manager is a tool used to create and maintain project.
+    - There are various package managers
+		NPM
+		Yarn
+		NuGet
+		RubyGems
+		Grunt
+		Growl
+		Bower etc..
+   - Test Node and NPM Versions installed
+
+	C:\> node -v	16+
+	C:\> npm -v	 8+
+
+
+2. Download and Install Editor   "Visual Studio Code"
+
+     - Editor provides an IDE [Integrated Development Environment]
+     - It provides single environment for building, debug, test, deploying.
+
+
+3. Download and Install following Extensions for Visual Studio Code
+
+	- Live Server
+	- vscode-icons
+
+
+Create a new Web Application:
+=======================
+1. Create a new folder on your PC 
+	"C:\Shopping-Application"
+
+2. Open your project folder in "Visual Studio Code"
+
+3. Inlitialize your project as Web Application
+
+    - Open your project location in Terminal
+
+	C:\shopping-application>
+
+   -  Type the following command
+
+	> npm  init
+
+      generates a  file "package.json"
+
+                 > npm init -y
+
+4. Add following folders into project
+
+	- public	 : It comprises of static resources like
+		    .html, images, documents [pdf, txt, doc, mp4, mp3]
+
+	- src	: It comprises of dynamic resources like
+		     css, scss, ts, js etc..
+
+	- node_modules : It comprises of all library files that are
+		            downloaded through NPM.
+
+		> npm  install  bootstrap
+		> npm  install  jquery
+
+5. Create a startup page for your application
+
+		public/index.html
+
+What is Web Page? How to design a Web Page?
