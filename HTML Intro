@@ -1,0 +1,66 @@
+		             Web Page
+- Web Page provides an UI [User Interface] to interact with the resources of any web site or web application.
+
+- Web Page is a Hyper Text Document that provides UI for web application.
+
+	Hyper	[Greek]	 : Beyond
+
+- A Hyper Text Document contains information beyond what you see.
+
+- Web Pages are classified into 2 types
+
+	a) Static Page
+	b) Dynamic Page
+
+Static 	:  It refers to continous memory.
+Dynamic	:  It refers to discreet memory.
+
+Note:  
+ - Static is used when operations are continous  [Connected]
+ - Dynamic is used when operations are disconnected.
+
+
+What is a Static Page?
+- It comprises of same information to display accross any number of requests. 
+- Static pages have extension
+		 .html
+		 .htm
+
+What is a Dynamic Page?
+- It comprises of information that can change according to request.
+- It can customize the response as per request.
+- It sends a customized response for every client request.
+- Dynamic Pages have extension
+
+		.aspx
+		.asp
+		.php
+		.jsp etc..
+
+How static and dynamic pages are designed?
+- UI for static and dynamic page is designed by using HTML.
+- Client Side Interactions are designed with JavaScript, jQuery.
+- Server Side Interactions are designed with JSP, PHP, ASP.NET, ASP, Node.js.
+- Dynamic page additionally contains server side interactions.
+
+
+		                    HTML
+		[Hyper Text Markup Language]
+
+What is a Markup Language?
+- The term markup represents content blocked for presentation.
+- It is the process of preparing presentation.
+- Markup language is a presentation language.
+- The first markup language used for Internet was 
+	"GML"  [Generic Markup Language]
+	 [CERN Labs]
+- SGML [Standard Generic Markup Language] is superset of GML.
+- Tim Berners Lee introduced "HTML" in early 1990.
+- HTML is superset of SGML.
+- IETF [Intenet Engineering Task Force] developed HTML upto 3.2
+- WHATWG & W3C  - HTML  - 4.0  [2004]
+
+	Web Hyper Text Technology Work Group [WHATWG]
+	World Wide Web Consortium [W3C]
+
+- Latest Version of HTML is  HTML 5.   -2014
