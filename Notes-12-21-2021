@@ -1,0 +1,25 @@
+		      Web Development
+
+What is Network?
+- Group of computers connected with each other for sharing of information
+  and resources.
+- Types of Networks
+	a) LAN
+	b) MAN 
+	c) WAN
+- Internet
+	WAN
+
+What is Web?
+- Web is a portion of Internet with restricted access.
+- Tim Berners Lee introduced the concept of web.
+- Web Application provides restricted access.
+	a) Anonymous users
+	b) Authorized users
+
+Architecture of Web Application
+1. Database
+2. Server Side
+3. Client Side
+
+		               
