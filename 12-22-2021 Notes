@@ -1,0 +1,151 @@
+Back End
+- Database		: MongoDB
+- Server Side Scripting	: Node.js
+- API			: Express
+
+Front End
+- HTML
+- CSS
+- Sass
+- Bootstrap
+- JavaScript
+- jQuery
+- Angular & React
+
+1. Web
+    - It is a portion of Internet with restricted access.
+    - Tim Berner Lee
+    - Standards maintained  W3C & WHATWG.
+
+	www.w3.org
+	http://whatwg.org
+
+2. Web Server
+    - Server resembles both hardware and software.
+    - Server satisfies the client request by sending and receving data.
+    - Its responsibility is to
+	a) Handle request from client
+	b) Process the request
+	c) Generate a response for client request
+	d) Send response to client
+
+    - Servers are 2 types
+	a) Local Web Server
+		- Apache Tomcat, IIS 
+	b) Cloud Server
+		- aws, azure, firebase, git
+
+		  Web Server on Windows PC		
+		  ======================
+	           [Internet Information Services Manager]
+
+Locate Web Server on Windows PC:
+============================
+1. Open windows "Control Panel"
+2. Switch to "Icons View"
+3. Go to "Administrative Tools"
+4. Look for "Internet Information Services Manager" [IIS]
+
+How to add IIS into Windows PC?
+=========================
+1. Open Control Panel
+2. Go to "Programs and Features"
+3. Click on "Turn Windows Features ON or OFF".
+4. Select "Internet Information Services"
+5. Click OK
+
+
+Test the WebServer:
+================
+1. Open any browser : Chrome, Edge, FireFox, Opera, Safari etc..
+2. Type the following in address bar
+
+	http://127.0.0.1
+	        (or)
+	http://localhost
+
+3. Web Site
+    - Web site is a virtual directory on Web Server.
+	   site  = location
+    - It comprises of resources, which are served to client on request.
+
+	  http://127.0.0.1/netflix	Virtual Path
+	  D:\netflix			Physical Path
+
+Creating a new Website
+==================
+1. Open IIS    [ run -> inetmgr ]
+2. Expand local computer
+3. Expand "sites" folder
+4. Right Click on "Default Website"
+5. Add Virtual Directory
+	Alias		: netflix
+	Physical path	: d:\netflix
+
+6. Go to Physical path and add folders
+	- images
+	       pic.jpg
+	- docs
+	       notes.pdf
+
+     http://localhost/netflix/images/pic.jpg
+     http://localhost/netflix/docs/notes.pdf
+
+Web Page:
+
+
+
+https://github.com/Sharma-NareshIT/UI-Fullstack
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
