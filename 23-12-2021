@@ -1,0 +1,83 @@
+Create a new Web Application
+1. Download and Install Node.js on your PC
+    - We are downloading node.js for a package manager called "NPM".
+    - Package Manager is a tool used by developers to download and 
+      install various libraries required for project. 
+    - There are various package manager tools
+	a) NPM
+	b) Yarn
+	c) Bower
+	d) RubyGems
+	e) NuGet etc..
+    - Download from following URL
+
+	https://nodejs.org/en/download/
+
+    - After installing open command prompt 
+
+	C:\> node -v 	16.3+
+	C:\> npm -v	 8.0+
+
+
+2. Download and Install an Editor - Visual Studio Code
+    - Editor provides an IDE [Integrated Development Environment]
+    - Build, Debug, Test & Deploy
+
+	https://code.visualstudio.com/
+
+3. Open Visual Studio Code and Add following Extensions
+
+	- Live Server [Ritwick Dey]		- Mandatory
+	- vscode-icons
+	- Intellisense for CSS class names
+
+4. Creating a new Web Project
+     - Create a new folder on your PC for project
+
+	E:\FullstackUI-Project
+ 
+     - Open this folder in "VS Code"
+	File Menu -> Open Folder -> Select your project folder
+
+     - Open Terminal
+	Terminal Menu -> New Terminal  (or)   Ctrl + `    backtick
+
+     - Switch to Command Prompt if you are in Power Shell
+
+     - Run the following command in terminal
+
+	> npm   init  -y
+
+     - It will generate a file "package.json"
+
+     - package.json comprises of meta data, i.e information about your project  like 
+		Project Name
+		Version
+		Dependencies etc..
+
+          JSON  -  JavaScript Object Notation
+		{
+		  "Key": value
+		}
+
+5. Add following folders into project 
+
+      public		: It is used for static resources like  html pages,
+		  text documents, pdf, word, ppt, excel, audio, video
+		  image etc..
+
+      src		: It comprises of dynamic resources like
+		  css files
+		  javascript files
+		  typescript files 
+		  sass files [scss] etc..
+
+6. Select public folder and add a new file "index.html"
+
+7. Right click inside index.html page and select
+
+	"Open With Live Server"
+
+           http://127.0.0.1:5500     or
+           http://localhost:5500
+
