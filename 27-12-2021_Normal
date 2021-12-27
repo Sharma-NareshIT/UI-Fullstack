@@ -1,0 +1,83 @@
+- Setup Environment of Web Application
+- Create a new Web Application
+- What is a Web Page?
+	a) Static
+	b) Dynamic
+- What is HTML?
+	Markup Language
+	Designing Static & Dynamic
+	Tim Berners Lee 
+	WHATWG 
+	HTML 4
+	HTML 5
+		      How HTML Works?
+
+Markup => Bytes => Chars => Tokens [Tags] => Node [Element] => DOM => Layout => Rendering => Painting
+
+<p>    => 0011011 =>  <  p  >  =>  <p>  =>  p [paragraph] => body->p => Layout [DOM] => generating output => painting output
+
+
+- HTML is a collection of Elements arranged in a hierarchy called DOM.
+  [Document Object Model]
+
+- HTML presents static DOM.
+- JavaScript, jQuery, React, Angular, Vue etc. convert the static DOM into dynamic DOM.
+- Tags are used to build element.
+- Tags are Tokens
+- Tag => Element     [Tokenization]
+
+		    Types of Elements in HTML
+		    =====================
+1. Normal Elements
+2. Void Elements
+3. RC Data Elements
+4. Raw Text Elements
+5. Foreign Elements
+
+Normal Elements:
+==============
+- They return a presentation directly on callback without using additional attributes.
+	<b>
+
+- It can't end presentation.
+- You have to end presentation explicitly by using end tag.
+	</b>
+
+	Start Tag		<b>
+	End Tag		</b>
+
+Void Elements:
+=========== 
+- Void means no-return type.
+- These elements will not return any presentation directly on callback.
+- They require additional attributes.
+- They can return specified content and end implicitly.
+- They dosen't require end tag.
+
+      <img>
+
+RC Data Elements:
+===============
+- These are the container elements used to present plain text content.
+- Rich Content is not allowed.
+
+	<textarea> </textarea>
+
+Raw Text Elements :
+===============
+- These are the elements presented by using raw text instead of tokens. [tag]
+- They don't have tags or tokens.
+
+	&#8337;
+	&copy;
+
+- They are presented by using "&".
+
+
+Foreign Elements:
+==============
+- These elements are not native to HTML, but can be used in HTML.
+- They require additional library. Without library you can't use in a  page.
+
+ 	SVG, Canvas, MathML
+
